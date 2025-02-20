@@ -1,0 +1,185 @@
+* {
+  text-decoration: 0;
+  margin: 0;
+  padding top: 0;
+}
+
+body {
+  font-family: 'open sans',sans-serif;
+  margin: 0;
+  padding top: 10;
+  background-color: rgb(236, 240, 32);
+}
+
+header {
+  background-color: #ac1037;
+  padding: 25px;
+  text-align: left;
+  font-size: 20px;
+  margin: 20;
+  position: fixed;
+  width: 100%;
+  
+}
+
+ul {
+  position: fixed;
+  padding: 200;
+  top: 0;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(218, 223, 224);
+  padding: 15;
+  position: left;
+}
+
+nav {
+  background-color: #b1d2e6;
+  color: rgb(43, 29, 235);
+  padding: 6px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+h2 {
+  text-align: left;
+  padding: 120px;
+  margin: auto;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style: 'comic sans ms';
+  margin: 100;
+  padding: 10;
+  text-align: center;
+  position: center;
+}
+
+ul {
+  position: left;
+  padding: 10;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+  text-align: left;
+}
+
+nav li a {
+  color: rgb(7, 172, 70);
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+  font-weight: bold;
+}
+
+nav li a :hover {
+  text-decoration: blue;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: blue;
+  text-align: left;
+  padding: 30;
+}
+
+h3 {
+  color: rgba(240, 14, 14, 0.788);
+  padding-left: 20;
+  text-align: center;
+}
+
+#daftarharga {
+  text-align: center; 
+  padding: 20px;
+}
+
+#daftarharga h2 {
+  margin-bottom: 20px;
+}
+
+.paket {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically align items */
+  justify-content: center; /* Horizontally center items */
+  flex-direction: column; /* Stack elements vertically by default */
+}
+
+.paket img {
+  max-width: 200px; /* Adjust image size as needed */
+  margin-left: 20px; /* Space between image and list */
+  margin-top: 20px; /* Space between image and text*/
+}
+
+.paket ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0; /* Space between list and image/text */
+}
+
+.paket li {
+  margin-bottom: 5px;
+}
+
+.paket p {
+  margin-top: 20px; /* Space between text and image */
+  text-align: center;
+}
+
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+  .paket {
+    flex-direction: row; /* Switch to horizontal layout on larger screens */
+    justify-content: center; /* Center items horizontally */
+  }
+
+  .paket img {
+    margin-left: 20px;
+    margin-top: 0px;
+    text-decoration: double;
+  }
+
+  .paket ul {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .paket p {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: aqua;
+  }
+  
+#contact {
+  background: darkgoldenrod;
+  padding: 50px 0px 50px 0px;
+}
+
+#img {
+  width: 20%;
+  border-radius: 20%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
